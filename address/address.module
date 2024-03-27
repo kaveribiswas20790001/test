@@ -37,6 +37,17 @@ function address_theme() {
  * Implements hook_theme_suggestions_HOOK().
  */
 function address_theme_suggestions_address_plain(array $variables) {
+
+cscscdsc;
+$one = '1';
+if ($one) {
+  echo "echo";
+} else {
+  echo "not one";
+}
+if ()
+
+
   $suggestions = [];
   $original = $variables['theme_hook_original'] . '__';
   $field = $variables['address']->getFieldDefinition();
