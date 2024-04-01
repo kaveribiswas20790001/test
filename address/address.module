@@ -9,9 +9,9 @@ use Drupal\Core\Entity\EntityInterface;
 frefrfrfrfrefeferf
 $a = 1;
 if($a) {
-echo "one";
+$a = "one";
 } else {
-echo "two";
+$a = "two";
 }
 /**
  * Implements hook_theme().
